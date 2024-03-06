@@ -1,0 +1,7 @@
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assessment1\Assessment1\bin\Debug\Assessment1.exe.config
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assessment1\Assessment1\bin\Debug\Assessment1.exe
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assessment1\Assessment1\bin\Debug\Assessment1.pdb
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assessment1\Assessment1\obj\Debug\Assessment1.csproj.AssemblyReference.cache
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assessment1\Assessment1\obj\Debug\Assessment1.csproj.CoreCompileInputs.cache
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assessment1\Assessment1\obj\Debug\Assessment1.exe
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assessment1\Assessment1\obj\Debug\Assessment1.pdb
