@@ -1,7 +1,0 @@
-C:\Users\pragyat\Desktop\pragya\csharp\dotnet_day4\dotnet_day4\bin\Debug\dotnet_day4.exe.config
-C:\Users\pragyat\Desktop\pragya\csharp\dotnet_day4\dotnet_day4\bin\Debug\dotnet_day4.exe
-C:\Users\pragyat\Desktop\pragya\csharp\dotnet_day4\dotnet_day4\bin\Debug\dotnet_day4.pdb
-C:\Users\pragyat\Desktop\pragya\csharp\dotnet_day4\dotnet_day4\obj\Debug\dotnet_day4.csproj.AssemblyReference.cache
-C:\Users\pragyat\Desktop\pragya\csharp\dotnet_day4\dotnet_day4\obj\Debug\dotnet_day4.csproj.CoreCompileInputs.cache
-C:\Users\pragyat\Desktop\pragya\csharp\dotnet_day4\dotnet_day4\obj\Debug\dotnet_day4.exe
-C:\Users\pragyat\Desktop\pragya\csharp\dotnet_day4\dotnet_day4\obj\Debug\dotnet_day4.pdb
