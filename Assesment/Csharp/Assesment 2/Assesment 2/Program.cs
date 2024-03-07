@@ -1,7 +1,9 @@
 ﻿using System;
 
-namespace Assessment1 //6th March 2024
+
+namespace Assesment_2//06th march
 {
+   
     abstract class Student
     {
         public string Name { get; set; }
@@ -118,7 +120,7 @@ namespace Assessment1 //6th March 2024
                 products[i] = new Product(productId, productName, price);
             }
 
-            
+
             for (int i = 0; i < products.Length - 1; i++)//here I've used bubble sorting
             {
                 for (int j = 0; j < products.Length - 1 - i; j++)
