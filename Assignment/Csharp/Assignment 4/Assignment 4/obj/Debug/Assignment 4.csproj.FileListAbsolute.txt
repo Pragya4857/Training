@@ -1,0 +1,6 @@
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Assignment 4\bin\Debug\Assignment 4.dll
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Assignment 4\bin\Debug\Assignment 4.pdb
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Assignment 4\obj\Debug\Assignment 4.csproj.AssemblyReference.cache
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Assignment 4\obj\Debug\Assignment 4.csproj.CoreCompileInputs.cache
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Assignment 4\obj\Debug\Assignment 4.dll
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Assignment 4\obj\Debug\Assignment 4.pdb

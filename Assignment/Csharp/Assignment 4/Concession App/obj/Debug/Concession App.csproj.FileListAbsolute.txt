@@ -1,0 +1,7 @@
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\bin\Debug\Concession App.exe
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\bin\Debug\Assignment 4.dll
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\bin\Debug\Assignment 4.pdb
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\obj\Debug\Concession App.csproj.AssemblyReference.cache
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\obj\Debug\Concession App.csproj.CoreCompileInputs.cache
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\obj\Debug\Concession App.exe
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\obj\Debug\Concession App.pdb
