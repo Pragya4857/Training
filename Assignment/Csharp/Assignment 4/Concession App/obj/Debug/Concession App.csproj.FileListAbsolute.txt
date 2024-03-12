@@ -5,3 +5,6 @@ C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\
 C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\obj\Debug\Concession App.csproj.CoreCompileInputs.cache
 C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\obj\Debug\Concession App.exe
 C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\obj\Debug\Concession App.pdb
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\bin\Debug\Concession App.exe.config
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\bin\Debug\Concession App.pdb
+C:\Users\pragyat\Desktop\Training\Assignment\Csharp\Assignment 4\Concession App\obj\Debug\Concessi.66A9BF29.Up2Date
