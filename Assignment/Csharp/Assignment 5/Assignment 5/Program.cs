@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; //Ma'am, I've add all the interfaces in one main program.cs. I've combined all the code. Although I know how to add interface/class or any other thing seperately.
 
 namespace Assignment5
 {
