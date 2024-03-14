@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pragyat\\Desktop\\Training\\Assesment\\Csharp\\Assessment 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F0807A-187B-4154-9927-DE2ADB96A52F}|Assessment 3\\Assessment 3.csproj|c:\\users\\pragyat\\desktop\\training\\assesment\\csharp\\assessment 3\\assessment 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F0807A-187B-4154-9927-DE2ADB96A52F}|Assessment 3\\Assessment 3.csproj|solutionrelative:assessment 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pragyat\\Desktop\\Training\\Assesment\\Csharp\\Assessment 3\\Assessment 3\\Program.cs",
+              "RelativeDocumentMoniker": "Assessment 3\\Program.cs",
+              "ToolTip": "C:\\Users\\pragyat\\Desktop\\Training\\Assesment\\Csharp\\Assessment 3\\Assessment 3\\Program.cs",
+              "RelativeToolTip": "Assessment 3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T04:34:55.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

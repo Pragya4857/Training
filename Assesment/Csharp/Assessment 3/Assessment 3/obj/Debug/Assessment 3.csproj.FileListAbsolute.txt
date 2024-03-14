@@ -1,0 +1,7 @@
+C:\Users\pragyat\Desktop\Training\Assesment\Csharp\Assessment 3\Assessment 3\bin\Debug\Assessment 3.exe.config
+C:\Users\pragyat\Desktop\Training\Assesment\Csharp\Assessment 3\Assessment 3\bin\Debug\Assessment 3.exe
+C:\Users\pragyat\Desktop\Training\Assesment\Csharp\Assessment 3\Assessment 3\bin\Debug\Assessment 3.pdb
+C:\Users\pragyat\Desktop\Training\Assesment\Csharp\Assessment 3\Assessment 3\obj\Debug\Assessment 3.csproj.AssemblyReference.cache
+C:\Users\pragyat\Desktop\Training\Assesment\Csharp\Assessment 3\Assessment 3\obj\Debug\Assessment 3.csproj.CoreCompileInputs.cache
+C:\Users\pragyat\Desktop\Training\Assesment\Csharp\Assessment 3\Assessment 3\obj\Debug\Assessment 3.exe
+C:\Users\pragyat\Desktop\Training\Assesment\Csharp\Assessment 3\Assessment 3\obj\Debug\Assessment 3.pdb
