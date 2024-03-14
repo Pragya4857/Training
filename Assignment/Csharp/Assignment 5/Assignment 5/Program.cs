@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; //Ma'am, I've add all the interfaces in one main program.cs. I've combined all the code. Although I know how to add interface/class or any other thing seperately.
 
 namespace Assignment5
 {
@@ -54,7 +54,7 @@ namespace Assignment5
         }
     }
 
-    // Remaining classes: Employee, ParttimeEmployee, IStudent, Dayscholar, Resident
+    // remaining part- Employee, ParttimeEmployee, IStudent, Dayscholar, Resident
 
     public class Employee
     {
@@ -121,8 +121,6 @@ namespace Assignment5
             Console.WriteLine($"Resident - StudentId: {StudentId}, Name: {Name}");
         }
     }
-
-    // Main test class
     public class TestStudents
     {
         public static void Main()
@@ -155,7 +153,7 @@ namespace Assignment5
             resultBox.Display();
         }
 
-        // Helper methods for creating objects
+        //methods for creating objects
 
         private static Dayscholar CreateDayscholar()
         {
