@@ -56,35 +56,45 @@ select ENAME, EMPNO, SAL from EMP where SAL between 1200 and 1400;
 -- query 4: give all the employees in the research department a 10% pay rise
 update EMP set SAL = SAL * 1.1 where DEPTNO = 20;
 --select sal from emp
--- query 5: verify the pay rise for employees in the research department
 select* from EMP where DEPTNO = 20;
 
--- query 6: find the number of clerks employed
+-- query 5: find the number of clerks employed
 select count(*) as "Number of Clerks Employed" from EMP where JOB = 'CLERK';
 
--- query 7: find the average salary for each job type and the number of people employed in each job
+-- query 6: find the average salary for each job type and the number of people employed in each job
 select JOB,avg(SAL) as "Average Salary", count(*) as "Number of Employees" from EMP group by JOB;
 
--- query 8: list the employees with the lowest and highest salary
+-- query 7: list the employees with the lowest and highest salary
 select * from EMP where SAL in (select min(SAL) from EMP) or SAL in (select max(SAL) from EMP);
 
--- query 9: list full details of departments that don't have any employees
+-- query 8: list full details of departments that don't have any employees
 select * from DEPT where DEPTNO not in (select distinct DEPTNO from EMP);
 
--- wuery 10: get the names and salaries of all the analysts earning more than 1200 who are based in department 20. Sort the answer by ascending order of name
+-- wuery 9: get the names and salaries of all the analysts earning more than 1200 who are based in department 20. Sort the answer by ascending order of name
 select ENAME, SAL from EMP where JOB = 'ANALYST' and SAL > 1200 and DEPTNO = 20 order by ENAME asc;
 
--- query 11: for each department, list its name and number together with the total salary paid to employees in that department
+-- query 10: for each department, list its name and number together with the total salary paid to employees in that department
 select D.DNAME, D.DEPTNO, sum(E.SAL) as "Total Salary" from DEPT D left join EMP E ON D.DEPTNO = E.DEPTNO group by D.DNAME, D.DEPTNO;
 
--- query 12: find out the salary of both MILLER and SMITH
+-- query 11: find out the salary of both MILLER and SMITH
 select ENAME, SAL from EMP where ENAME in ('MILLER', 'SMITH');
 
--- query 13: find out the names of the employees whose name begins with ‘A’ or ‘M’
+-- query 12: find out the names of the employees whose name begins with ‘A’ or ‘M’
 select * from EMP where ENAME like 'a%' or ENAME like 'm%';
 
--- query 14: compute yearly salary of SMITH
+-- query 13: compute yearly salary of SMITH
 select ENAME, SAL * 12 as "Yearly Salary" from EMP where ENAME = 'SMITH';
 
--- query 15: list the name and salary for all employees whose salary is not in the range of 1500 and 2850
+-- query 14: list the name and salary for all employees whose salary is not in the range of 1500 and 2850
 select ENAME, SAL from EMP where SAL not between 1500 and 2850;
+-- query 15: finding all managers who have more than 2 employees reporting to them
+select MGR_ID, Num_Employees
+from (
+    select MGR_ID, count(*) as Num_Employees
+    from EMP
+    where MGR_ID is not null
+    group by MGR_ID
+) as Subquery
+where Num_Employees > 2;
+
+
