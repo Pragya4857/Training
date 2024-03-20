@@ -1,4 +1,4 @@
-use practice
+use assignment
 -- create employee table
 create table EMP (
     EMPNO int primary key,
