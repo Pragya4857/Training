@@ -1,4 +1,4 @@
-use practice
+use assignment
 
 
 -- 1. Retrieve a list of MANAGERS
@@ -8,11 +8,11 @@ select ENAME, SAL from EMP where SAL > 1000;
 --3. Display the names and salaries of all employees except JAMES
 select ENAME, SAL from EMP where ENAME != 'JAMES';
 --select * from EMP
---4. Find out the details of employees whose names begin with ‘S’
+--4. Find out the details of employees whose names begin with â€˜Sâ€™
 select * from EMP where ENAME like 's%';
---5. Find out the names of all employees that have ‘A’ anywhere in their name
+--5. Find out the names of all employees that have â€˜Aâ€™ anywhere in their name
 select ENAME from EMP where ENAME like '%a%';
---6. Find out the names of all employees that have ‘L’ as their third character in their name
+--6. Find out the names of all employees that have â€˜Lâ€™ as their third character in their name
 select ENAME from EMP where ENAME LIKE '__L%';
 --7. Compute daily salary of JONES
 select ENAME, SAL / 30 as "Daily Salary" from EMP where ENAME = 'JONES';
