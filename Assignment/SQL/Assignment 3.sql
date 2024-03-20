@@ -1,6 +1,4 @@
 use assignment
-
-
 -- 1. Retrieve a list of MANAGERS
 select * from EMP where JOB = 'MANAGER';
 --2. Find out the names and salaries of all employees earning more than 1000 per month
@@ -13,13 +11,12 @@ select * from EMP where ENAME like 's%';
 --5. Find out the names of all employees that have ‘A’ anywhere in their name
 select ENAME from EMP where ENAME like '%a%';
 --6. Find out the names of all employees that have ‘L’ as their third character in their name
-select ENAME from EMP where ENAME LIKE '__L%';
+select ENAME from EMP where ENAME LIKE '__l%';
 --7. Compute daily salary of JONES
 select ENAME, SAL / 30 as "Daily Salary" from EMP where ENAME = 'JONES';
 
 --8. Calculate the total monthly salary of all employees
 select sum(SAL) as "Total Monthly Salary" from EMP;
-
 --9. Print the average annual salary
 select avg(SAL) * 12 as "Average Annual Salary" from EMP;
 
@@ -37,7 +34,6 @@ select ENAME, JOB, SAL from EMP where (JOB = 'MANAGER' or JOB = 'ANALYST') and S
 
 --14. Display the name, salary and commission for all employees whose commission amount is greater than their salary increased by 10%
 select ENAME, SAL, COMM from EMP where COMM > SAL * 0.1;
-
 --15. Display the name of all employees who have two Ls in their name and are in department 30 or their manager is 7782
 select ENAME from EMP where (ENAME like '%l%l%' and DEPTNO = 30) or MGR_ID = 7782;
 --16. Display the names of employees with experience of over 30 years and under 40 yrs.Count the total number of employees. 
@@ -45,15 +41,11 @@ select ENAME from EMP where year(Getdate()) - year(HIREDATE) between 30 and 40;
 select count(*) as TotalEmployees 
 from EMP 
 where year(getdate()) - year(HIREDATE) between 30 and 40;
-
-														
-
 --17. Retrieve the names of departments in ascending order and their employees in descending order
 select D.DNAME, E.ENAME 
 from DEPT D 
 LEFT JOIN EMP E on D.DEPTNO = E.DEPTNO 
 order by D.DNAME asc, E.ENAME desc;
-
 --18. Find out experience of MILLER. 
 select datediff(year, HIREDATE, getdate()) as Experience
 from EMP 
