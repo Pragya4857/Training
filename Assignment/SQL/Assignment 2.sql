@@ -79,7 +79,7 @@ select D.DNAME, D.DEPTNO, sum(E.SAL) as "Total Salary" from DEPT D left join EMP
 -- query 11: find out the salary of both MILLER and SMITH
 select ENAME, SAL from EMP where ENAME in ('MILLER', 'SMITH');
 
--- query 12: find out the names of the employees whose name begins with â€˜Aâ€™ or â€˜Mâ€™
+-- query 12: find out the names of the employees whose name begins with ‘A’ or ‘M’
 select * from EMP where ENAME like 'a%' or ENAME like 'm%';
 
 -- query 13: compute yearly salary of SMITH
