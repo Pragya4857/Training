@@ -85,7 +85,7 @@ delete from emp
 where emp_id = 1;
 
 insert into holiday (holiday_date, holiday_name) 
-values (GETDATE(), 'Custom Holiday');
+values (GETDATE(), 'Custom Holiday'); --4th holiday
 --after updation of date
 insert into emp (emp_id, emp_name, emp_salary)
 values (1, 'Dhriti', 50000.00);
