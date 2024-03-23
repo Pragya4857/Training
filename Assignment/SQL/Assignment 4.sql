@@ -43,7 +43,7 @@ begin
 end
 exec generatemultitab 7
 ------------------------------------------------------------------------------------------------------
---3.  Create a trigger to restrict data manipulation on EMP table during General holidays. Display the error message like ìDue to Independence day you cannot manipulate dataî or "Due To Diwali", you cannot manupulate" etc
+--3.  Create a trigger to restrict data manipulation on EMP table during General holidays. Display the error message like ‚ÄúDue to Independence day you cannot manipulate data‚Äù or "Due To Diwali", you cannot manupulate" etc
 
 --Note: Create holiday table as (holiday_date,Holiday_name) store at least 4 holiday details. try to match and stop manipulation 
 create table holiday (
@@ -61,7 +61,6 @@ create table emp (
     emp_name varchar(100),
     emp_salary decimal(10, 2)
 );
-
 create or alter trigger restrict_holiday_manipulation
 on emp
 after insert, update, delete
@@ -75,7 +74,7 @@ begin
 
     if @HolidayName is not null
     begin
-        raiserror('Due to %s, you cannot manipulate data', 16, 1, @HolidayName) with nowait;
+        print 'Due to ' + @HolidayName + ', you cannot manipulate data';
         rollback transaction; 
     end
 end;
