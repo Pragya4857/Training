@@ -72,7 +72,8 @@ begin
         from holiday 
         where holiday_date = convert(date, getdate());
 
-        raiserror('Due to %s, you cannot manipulate data', 16, 1, @holidayname);
+        print 'Due to ' + @holidayname + ', you cannot manipulate data';
+
         rollback transaction; 
     end;
 end;
