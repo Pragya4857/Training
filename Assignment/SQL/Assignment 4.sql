@@ -76,22 +76,7 @@ begin
         rollback transaction; 
     end;
 end;
-<<<<<<< HEAD
+
 -- inserting a new employee
 insert into emp (emp_id, emp_name, emp_salary) values (1, 'bhumi',50000.00); -- this will give error coz we are using getdate to see that our trigger is working or not.
-=======
---before updation of date
-insert into emp (emp_id, emp_name, emp_salary)
-values (1, 'Dhriti', 50000.00);
-delete from emp
-where emp_id = 1;
 
-insert into holiday (holiday_date, holiday_name) 
-values (GETDATE(), 'Custom Holiday'); --4th holiday
---after updation of date
-insert into emp (emp_id, emp_name, emp_salary)
-values (1, 'Dhriti', 50000.00);
-delete from emp
-where emp_id = 1;
-
->>>>>>> 1c9cd7408dbd4c113d6468545dcedbc03838e82e
