@@ -1,3 +1,4 @@
+create database assignment
 use assignment
 --------------------------------------------------------------------------------------------
 -- 1 T-SQL Program to find the factorial of a given number
@@ -72,11 +73,11 @@ begin
         from holiday 
         where holiday_date = convert(date, getdate());
 
-        raiserror('Due to %s, you cannot manipulate data', 16, 1, @holidayname);
+        print 'Due to ' + @holidayname + ', you cannot manipulate data';
+
         rollback transaction; 
     end;
 end;
 
 -- inserting a new employee
 insert into emp (emp_id, emp_name, emp_salary) values (1, 'bhumi',50000.00); -- this will give error coz we are using getdate to see that our trigger is working or not.
-
