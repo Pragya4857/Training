@@ -38,6 +38,8 @@ and month(HireDate) = month(getdate());
     -- c. Delete first row.
 --After completing above all actions how to recall the deleted row without losing increment of second row.
 
+
+--for this we can also use save tran but here i have used temporary table
 create table emp1(
     empno int primary key,
     ename varchar(50),
