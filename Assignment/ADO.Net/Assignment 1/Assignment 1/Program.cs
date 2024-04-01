@@ -141,10 +141,7 @@ namespace Assignment_1
             int totCount = staffTable.AsEnumerable().Count(row => DateTime.Parse(row.Field<string>("Birth_Date")) == getDOB);
 
             Console.WriteLine($"\n11. Total number of employees who are youngest in the list: {totCount}");
-            foreach (var employee in youngEmployee)
-            {
-                Console.WriteLine($"{employee["First_Name"]} {employee["Last_Name"]}");
-            }
+            
             //Total number of employees who are youngest in the list: 1
             //Asdin Dhalla
 
