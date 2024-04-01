@@ -13,7 +13,7 @@ namespace Assignment_1
             empData.Columns.Add("First_Name", typeof(string));
             empData.Columns.Add("Last_Name", typeof(string));
             empData.Columns.Add("Position", typeof(string));
-            empData.Columns.Add("Birth_Date", typeof(string)); // Add DOB column
+            empData.Columns.Add("Birth_Date", typeof(string)); 
             empData.Columns.Add("Joining_Date", typeof(string));
             empData.Columns.Add("City", typeof(string));
             return empData;
