@@ -1,0 +1,7 @@
+C:\Users\pragyat\Desktop\Training\Assesment\ADO.Net\Assessment 1\Assessment 1\bin\Debug\Assessment 1.exe.config
+C:\Users\pragyat\Desktop\Training\Assesment\ADO.Net\Assessment 1\Assessment 1\bin\Debug\Assessment 1.exe
+C:\Users\pragyat\Desktop\Training\Assesment\ADO.Net\Assessment 1\Assessment 1\bin\Debug\Assessment 1.pdb
+C:\Users\pragyat\Desktop\Training\Assesment\ADO.Net\Assessment 1\Assessment 1\obj\Debug\Assessment 1.csproj.AssemblyReference.cache
+C:\Users\pragyat\Desktop\Training\Assesment\ADO.Net\Assessment 1\Assessment 1\obj\Debug\Assessment 1.csproj.CoreCompileInputs.cache
+C:\Users\pragyat\Desktop\Training\Assesment\ADO.Net\Assessment 1\Assessment 1\obj\Debug\Assessment 1.exe
+C:\Users\pragyat\Desktop\Training\Assesment\ADO.Net\Assessment 1\Assessment 1\obj\Debug\Assessment 1.pdb
