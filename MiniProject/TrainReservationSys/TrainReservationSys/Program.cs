@@ -176,18 +176,23 @@ namespace TrainReservationSys
                         else
                         {
                             Console.WriteLine("Returning to the main menu.");
+                            return;
+
                         }
                     }
                     else
                     {
-                        Console.Write("Enter the train number: ");
-                        if (!int.TryParse(Console.ReadLine(), out int trainNumber))
+                        Console.WriteLine("Welcome back, " + userName + "!");
+                    }
+                    
+                    Console.Write("Enter the train number: ");
+                    if (!int.TryParse(Console.ReadLine(), out int trainNumber))
                         {
-                            Console.WriteLine("Invalid input. Please enter a number.");
+                         Console.WriteLine("Invalid input. Please enter a number.");
                             return;
                         }
                         User.User.BookTicket(userName, trainNumber);
-                    }
+                    
                     break;
                 case 2:
                     Console.Write("Enter the Booking ID of the ticket to cancel: ");
