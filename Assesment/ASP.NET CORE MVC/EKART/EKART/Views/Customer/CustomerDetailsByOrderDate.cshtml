@@ -1,0 +1,32 @@
+﻿@model List<EKART.Models.Customer>
+
+<h2>Customers Details by Order Date</h2>
+
+@if (Model.Count == 0)
+{
+    <p>No customers found for the specified order date.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Customer Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <!-- Add other columns as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@customer.CustomerId</td>
+                    <td>@customer.Name</td>
+                    <td>@customer.Email</td>
+                    <!-- Display other customer details as needed -->
+                </tr>
+            }
+        </tbody>
+    </table>
+}

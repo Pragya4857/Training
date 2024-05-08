@@ -1,0 +1,15 @@
+﻿@model EKART.Models.Customer
+
+<h2>Highest Order Customer</h2>
+
+@if (Model == null)
+{
+    <p>No customer found.</p>
+}
+else
+{
+    <p><strong>Customer Id:</strong> @Model.CustomerId</p>
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    
+}
